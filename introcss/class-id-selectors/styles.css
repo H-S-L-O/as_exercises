@@ -1,0 +1,22 @@
+* {
+  font-family: Verdana, DejaVu Sans, sans-serif;;
+}
+
+.odd {
+  background-color: lightpink;
+}
+
+#blu {
+  color: blue;
+  font-size: 36px;
+}
+
+#gre {
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cooler {
+  font-size: 24px;
+}
