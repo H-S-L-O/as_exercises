@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+}
+
+.one {
+
+  /* Div One has 12px between it and any other element on the page. */
+
+  margin: 12px auto;
+  background-color: pink;
+  border: blue solid 2px;
+  width: 600px;
+}
+
+.two {
+
+  /* There is a 48px gap between Div Two and Div Three. */
+
+  margin: 12px auto 48px;
+  background-color: azure;
+  border: purple solid 2px;
+  width: 700px;
+}
+
+.three {
+  background-color: rgb(255, 206, 116);
+
+  /* Div Three is aligned to the right.
+  Div Three's alignment is achieved using margin (and not float, flexbox, etc.). */
+
+  margin: 40px 0 0 53%;
+  border: red solid 2px;
+  width: 250px;
+}
+
+.one, .three {
+
+  /* Div One and Div Three have 32px between their text and border. */
+
+  padding: 32px;
+}
