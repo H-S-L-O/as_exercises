@@ -1,0 +1,28 @@
+body,
+html {
+
+  /* Did you only use flexbox to center it? */
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 350px;
+  width: 500px;
+  background-color: rgb(150, 200, 250);
+  border: 4px solid blue;
+  display: flex;
+
+  /* Is the red div centered? */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .item {
+  background-color: palevioletred;
+  padding: 5px 5px 70px 5px;
+  border: 4px solid rgb(100,20,20);
+  font-weight: bold;
+}
