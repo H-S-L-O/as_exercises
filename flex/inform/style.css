@@ -20,16 +20,14 @@ img {
 }
 
 .plants {
-  width: 200px;
+  max-width: 200px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   gap: 52px;
 }
 
 .text {
   width: 200px;
-  text-align: center;
 }
 
 /* do not edit this footer */
