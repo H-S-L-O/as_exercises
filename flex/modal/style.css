@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +19,16 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding: 10px;
+  
+  /* There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same). */
+  
+  /* There is padding around the edge of the modal. */
+
+  padding: 15px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
+
+  /* The blue icon is aligned to the left*/
 }
 
 .icon {
@@ -52,7 +58,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-  margin-left: 10px;
+  margin-right: 15px;
 }
 
 button {
@@ -77,6 +83,9 @@ button.cancel {
 
 .header {
   max-width: 380px;
+
+  /* The header is bold and a slightly larger text-size than the text. */
+
   font-weight: bold;
   font-size: 20px;
 }
@@ -94,9 +103,12 @@ section {
 }
 
 aside {
+
+  /* The close button is vertically aligned with the header, and aligned in the top-right of the card. */
+
   display: flex;
   justify-content: space-between;
-  width: 430px;
+  width: 438px;
 }
 
 nav {
