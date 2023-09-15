@@ -1,9 +1,0 @@
-/* Do the elements that contain the text "This should be styled" have the correct styles applied?
-Yes */
-
-div p{
-  background-color: yellow;
-  color: red;
-  font-size: 20px;
-  text-align: center;
-}
