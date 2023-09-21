@@ -46,10 +46,14 @@ aside {
 section {
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding: 32px;
+  padding: 0px;
+  border: black 1px solid;
+  gap: 4px;
+  width: 1200px;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -72,22 +76,17 @@ section {
   align-items: center;
 }
 
-
-.art-1, .art-2 {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  flex: auto;
-  border: 1px solid black;
-  margin: 10px 10px;
-  flex-wrap: wrap;
-}
-
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 32px;
-  flex: 1 1 200px;
+  width: 300px;
+  height: 190px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  overflow: hidden;
+  margin: 4px;
+  min-height: 0;
 }
 
